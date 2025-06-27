@@ -1,6 +1,6 @@
 # Café-Gourmet-Website
 
-##Estrutura do site
+## Estrutura do site
 
 café-gourmet/
 <br>
