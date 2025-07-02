@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café especial torrado artesanalmente. Experimente nossos blends exclusivos.">
+    <meta name="author" content="KaMark14, Kauã Marques, @kamarques_14">
+    <title>Café Gourmet | Sabor Artesanal</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home">Café<span>Gourmet</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Menu Mobile">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Café Feito com <span>Paixão</span></h1>
+            <p>Descubra o sabor único dos nossos grãos selecionados.</p>
+            <a href="#menu" class="btn">Ver Menu</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Café gourmet em xícara">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Grãos de café">
+        </div>
+        <div class="about-content">
+            <h2>Nossa <span>História</span></h2>
+            <p>Desde 2010, buscamos os melhores grãos de café em fazendas sustentáveis. Cada xícara é torrada artesanalmente para garantir o sabor perfeito.</p>
+            <ul class="about-features">
+                <li><i class="fas fa-seedling"></i> 100% Orgânico</li>
+                <li><i class="fas fa-fire"></i> Torra Artesanal</li>
+                <li><i class="fas fa-globe-americas"></i> Comércio Justo</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Nosso <span>Menu</span></h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Intenso e encorpado, feito com grãos arábica.</p>
+                <span class="price">R$ 9,90</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Balanceado com leite vaporizado e canela.</p>
+                <span class="price">R$ 12,90</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1568649929103-28ffbefaca1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Café Gelado">
+                <h3>Café Gelado</h3>
+                <p>Refrescante com notas de caramelo.</p>
+                <span class="price">R$ 14,90</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Fale <span>Conosco</span></h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu E-mail" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> Rua do Café, 123 - São Paulo</p>
+                <p><i class="fas fa-phone"></i> (11) 98765-4321</p>
+                <p><i class="fas fa-envelope"></i> contato@cafegourmet.com.br</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&#xae; 2025 Café Gourmet. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
